@@ -1,0 +1,19 @@
+{"intents": [
+  {"tag":"greetings",
+   "patterns":["hi","hello","hey","what's up","Good day"],
+   "responses": ["hii","hello","helo"]},
+  {"tag":"ffcs_info",
+   "patterns":["what is ffcs","Is ffcs difficult","what all do I need for ffcs","ffcs info","info on ffcs"],
+   "responses": ["ffcs stands for fully flexible credit system, and it not difficult but is tricky as you need to follow some tips , so that you end up choosing almost all the courses you need. To know more ask ffcs tips"]},
+  {"tag":"ffcs_tips",
+   "patterns":["how to crack ffcs","how do i get all the courses in ffcs","tips for ffcs","ffcs cheat sheet","ffcs check list","ffcs to dos"],
+   "responses": ["ALL FFCS TIPS PASTE HERE"]},
+  {"tag":"grades",
+   "patterns":["CGPA","GPA","cgpa","cgpa","gpa","how to calculate gpa","how to calculate cgpa","difference between cgpa and gpa","how to calculate GPA","how to calculate CGPA"],
+   "responses": ["ALL INFO ON CGPA AND GPA, DIFFERENCE BTW CGPA AND GPA *ALL* "]},
+  {"tag":"we",
+   "patterns":["who made you","who are you","you guys are amazing ","you guys are the best","thanks for the info","thanks","thanks a lot"],
+   "responses": ["I was created by ViinovateIT a VIT lab and if you liked our info please share info about this bot and follow our instagram page"]}
+]
+
+}
