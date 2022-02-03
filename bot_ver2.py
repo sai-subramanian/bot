@@ -15,7 +15,7 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-    if message.content.startswith("!chatbot"):
+    if message.content.startswith("!vinny"):
         responce = chatbot.request(message.content[9:])
         await message.channel.send(responce)
 

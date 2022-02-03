@@ -1,19 +1,27 @@
 {"intents": [
   {"tag":"greetings",
    "patterns":["hi","hello","hey","what's up","Good day"],
-   "responses": ["hii","hello","helo"]},
-  {"tag":"ffcs_info",
-   "patterns":["what is ffcs","Is ffcs difficult","what all do I need for ffcs","ffcs info","info on ffcs"],
-   "responses": ["ffcs stands for fully flexible credit system, and it not difficult but is tricky as you need to follow some tips , so that you end up choosing almost all the courses you need. To know more ask ffcs tips"]},
-  {"tag":"ffcs_tips",
-   "patterns":["how to crack ffcs","how do i get all the courses in ffcs","tips for ffcs","ffcs cheat sheet","ffcs check list","ffcs to dos"],
-   "responses": ["ALL FFCS TIPS PASTE HERE"]},
+   "responses": ["Hii","Hello","Helllllllo!!", "VinHello", "Heyy", "What's up"]},
+  {"tag":"friends",
+   "patterns":["how do we get the same class as our friends","can friends manage to get same teachers in ffcs"],
+   "responses": ["Sit together and keep your all the teachers together and next day while registering try your best to register the same. Try to select teachers that the crowd will not prefer but will be good enough. Its all about luck here.","Yes many get the same, you try to set your time table together and a bit different from the crowd to increase your chances."]},
+  {"tag":"courses",
+   "patterns":["Should I take only core courses or is it necessary to take electives too"],
+   "responses": ["It is generally preffered to prioritize and finish core credits first. But, it's all about getting desired credits for the semester. If you lack credits, you can and should take electives and aim for atleast 20+ credits every semester."]},
   {"tag":"grades",
-   "patterns":["CGPA","GPA","cgpa","cgpa","gpa","how to calculate gpa","how to calculate cgpa","difference between cgpa and gpa","how to calculate GPA","how to calculate CGPA"],
-   "responses": ["ALL INFO ON CGPA AND GPA, DIFFERENCE BTW CGPA AND GPA *ALL* "]},
-  {"tag":"we",
+   "patterns":["Top Courses to select for 2nd semester"],
+   "responses": ["Use Ventor https://ventor.vinnovateit.com/"]},
+  {"tag":"thanks",
    "patterns":["who made you","who are you","you guys are amazing ","you guys are the best","thanks for the info","thanks","thanks a lot"],
-   "responses": ["I was created by ViinovateIT a VIT lab and if you liked our info please share info about this bot and follow our instagram page"]}
-]
+   "responses": ["I was created by VinnovateIT, Officia lab of SITE. Follow us on https://www.instagram.com/vinnovateit/"]},
+   {"tag":"we",
+    "patterns":["What are core and elective courses"],
+    "responses": ["Core courses are mandatory courses you must study to meet the requirements of your program. Electives are courses you can choose, allowing you to study topics that interest you. Electives, when added to your core courses, make up the total number of units needed to complete your degree."]},
+  {"tag":"crash",
+    "patterns":["What to do if the site crashes"],
+    "responses":["If the servers are down or the site has crashed, best you can do is wait for it to get back to working state, and be connected to you friends and be active in common groups to stay updated if the site is working or not. Also, don't immediately assume that it has crashed, there's a high chance of FFCS site getting too slow due too heavy traffic but it still might be working, so wait for a few minutes, and also check with your friends and colleagues if they're facing similar issues"]
+  }
+
+  ]
 
 }
